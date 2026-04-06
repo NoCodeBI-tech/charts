@@ -6,12 +6,12 @@ entries:
       licenses: Proprietary
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-06T07:09:11.823145185Z"
+    created: "2026-04-06T10:46:53.983317216Z"
     description: 'NoCodeBI Appserver stack — multi-install Helm chart. Each install
       creates an isolated namespace with: API Gateway (Go), Config Server (Node.js),
       Connector (Java/Spring Boot), Workflow (Node.js), PostgreSQL, Redis, and Apache
       Doris. Install multiple times with different appName for multi-tenant deployments. '
-    digest: f8ddfa9e75f5f72b58ecc766c0871fdfef3a90896a302b77cba43b66c5a6420f
+    digest: 1bf471e19a8e4a45ea2da10d9a978442b20bfe64d71a3d91fafab6c95bc7aa9d
     home: https://nocodebi.io
     kubeVersion: '>=1.27.0-0'
     maintainers:
@@ -28,12 +28,12 @@ entries:
       licenses: Proprietary
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-06T07:09:11.825047377Z"
+    created: "2026-04-06T10:46:53.985059915Z"
     description: 'Production Helm chart for server-central — NoCodeBI License, Auth,
       Billing and Application Configuration server. Spring Boot 4.0.1 / WebFlux /
       Java 25. Deploys on your kubeadm server (internet accessible). Includes: server-central
       + PostgreSQL + Traefik IngressRoute + Let''s Encrypt TLS. '
-    digest: dbf8978324dabb58a408da2bda1767ac3a96f9313ca51ccab80673bfe28226c7
+    digest: 60e5ce196f0fbcb03018cb6a3e6ad55c626d22f06fe1e577ae45cdf548410202
     home: https://nocodebi.io
     kubeVersion: '>=1.27.0-0'
     maintainers:
@@ -47,11 +47,11 @@ entries:
   helm-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-06T07:09:11.82616652Z"
+    created: "2026-04-06T10:46:53.986052377Z"
     description: 'Helm operator for NoCodeBI — manages infrastructure Helm releases
       and cluster operations via REST API. Go / chi / port 10012. Deploys in product
       namespace alongside server-product-console. '
-    digest: f249df6945235fc91803f3412e8d7d356541d8cee46fb8848700dfa4181a8063
+    digest: 8059e9187d674e9945c1c2f3345aa9cea639ca97a92bfd03509c7d134c8cf9d6
     home: https://nocodebi.io
     kubeVersion: '>=1.27.0-0'
     maintainers:
@@ -68,12 +68,12 @@ entries:
       licenses: Proprietary
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-06T07:09:11.827570211Z"
+    created: "2026-04-06T10:46:53.987424692Z"
     description: 'Production Helm chart for server-product-console — NoCodeBI multi-tenant
       product management and analytics console. Spring Boot 4.0.1 / MVC + WebSocket
       / Java 25. Deploys on client kubeadm server (internet accessible). Includes:
       server-product-console + Traefik IngressRoute + Let''s Encrypt TLS. '
-    digest: 0818d6b72d00ad9841642aeb94d4035a345ca8d6611d709b58fd2f567c7c29f5
+    digest: b50d09ead8b58f6e24e268dff353b54e6e8bd74455d9112d7094fb3ca55dd1f6
     home: https://nocodebi.io
     kubeVersion: '>=1.27.0-0'
     maintainers:
@@ -84,4 +84,4 @@ entries:
     urls:
     - https://NoCodeBI-tech.github.io/charts/product-cloud-1.0.0.tgz
     version: 1.0.0
-generated: "2026-04-06T07:09:11.818186652Z"
+generated: "2026-04-06T10:46:53.978507392Z"
